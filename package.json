@@ -1,0 +1,45 @@
+{
+  "name": "hapi-elastic",
+  "description": "Elastic Search Hapi Plugin",
+  "version": "0.1.0",
+  "keywords": [
+    "hapi",
+    "plugin",
+    "es",
+    "search",
+    "json",
+    "db",
+    "elastic search",
+    "elastic"
+  ],
+  "main": "lib/index.js",
+  "homepage": "https://github.com/indexiatech/hapi-elastic",
+  "bugs": {
+    "url": "https://github.com/indexiatech/hapi-elastic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indexia.co/hapi-elastic.git"
+  },
+  "author": "Indexia Technologies <asaf@indexia.co>",
+  "license": "BSD-3-Clause",
+  "peerDependencies": {
+    "hapi": ">= 9.x.x",
+    "elasticsearch": ">=6.1.0"
+  },
+  "dependencies": {
+    "boom": "^2.8.0",
+    "elasticsearch": "^6.1.0",
+    "hoek": "^2.14.0",
+    "joi": "^6.6.1"
+  },
+  "scripts": {
+    "test": "lab -m 5000 -t 100 -v -La code",
+    "test-cov-html": "lab -m 5000 -r html -o coverage.html -La code"
+  },
+  "devDependencies": {
+    "code": "^1.5.0",
+    "hapi": "^9.0.3",
+    "lab": "^5.15.2"
+  }
+}
