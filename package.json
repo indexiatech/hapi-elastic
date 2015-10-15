@@ -25,11 +25,11 @@
   "license": "BSD-3-Clause",
   "peerDependencies": {
     "hapi": ">= 9.x.x",
-    "elasticsearch": ">=6.1.0"
+    "elasticsearch": "^8.2.0"
   },
   "dependencies": {
     "boom": "^2.8.0",
-    "elasticsearch": "^6.1.0",
+    "elasticsearch": "^8.2.0",
     "hoek": "^2.14.0",
     "joi": "^6.6.1"
   },
