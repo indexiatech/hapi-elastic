@@ -1,7 +1,7 @@
 {
   "name": "hapi-elastic",
   "description": "Elastic Search Hapi Plugin",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "keywords": [
     "hapi",
     "plugin",
